@@ -1,0 +1,63 @@
+
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    background-color: white;
+}
+
+form {
+    border-color: rgba(0, 136, 255, 0);
+    background: white;
+    border-radius: 25px;
+    height: fit-content;
+    align-self: center; /*does nothing*/
+    margin: 10px;
+    margin-top: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.144);
+    transition: .3s;
+}
+
+form:hover {
+    box-shadow:rgba(0, 0, 0, 0.404) 2px 2px 3px;
+    transition: .3s;
+}
+
+fieldset {
+    margin: 10px;
+    padding: 20px;
+    min-height: 250px;
+    max-width: 200px;
+    border-color: rgba(17, 0, 255, 0.468);
+    border-radius: 18px;
+    box-shadow: rgba(66, 0, 220, 0.368) 1px 1px 5px;
+    font-family: sans-serif, Arial, Helvetica;
+    font-size: 12px;
+}
+
+
+
+
+.invisible {
+    color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0);
+    border: 0px rgba(255, 255, 255, 0);
+}
+
+#submit {
+    margin-block: 5px;
+    background: linear-gradient(180deg, rgb(56, 56, 255), rgb(92, 0, 212));
+    color: white;
+    border-radius: 15px;
+    font-family: sans-serif, Arial, Helvetica;
+    transition: .3s;
+}
+#submit:hover {
+    cursor: pointer;
+    background: linear-gradient(180deg, blue, purple);
+    box-shadow:rgba(0, 0, 0, 0.404) 2px 2px 3px;
+    transition: .3s;
+}
